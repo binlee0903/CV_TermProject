@@ -21,7 +21,11 @@ Google Gemini 2.5
 Airsim에서 제공하는 Depth + Segmentation + RGB 카메라 3가지를 하나의 관측값으로 만들고,
 추가로 path.csv 파일 처럼 웨이 포인트와 현재 자동차의 위치를 비교하며 reward를 줘 도로를 잘 달릴 수 있게 하였습니다.
 Step 50000회 결과:
-[demo.mp4](demo.mp4)
+
+https://github.com/user-attachments/assets/efc773a8-3ed7-449b-a277-24cde7493ce7
+
+
+
 
 ```python
 vision_obs = np.stack([img_gray, img_depth_gray, img_seg_gray], axis=-1)
